@@ -45,8 +45,8 @@ Loading . . .
 		rid = requests.post(API_BASE_URL + API_USER + API_IDCHANGE,headers=headers,params=paramex,json=inputidbaru)
 		if rid.status_code == 200:
 			print(green,'\nBerhasil Cek ID Baru Kamu ! ' +white+ str(idbaru))
-			print(red,'\nCreated By FolefoleID')
+			print(red,'\JAMET')
 		elif rid.status_code == 400:
 			print(red,'\nForbidden ! Your ID is taken or invalid.')
-			#print('Silahkan Cek ID Spoon kamu..by folefole')
+			#print('Silahkan Cek ID Spoon kamu.')
 id()
